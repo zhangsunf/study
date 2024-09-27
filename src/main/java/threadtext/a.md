@@ -4,6 +4,7 @@ Thread.yield();//线程礼让让不一定成功
 Thread.sleep();//线程休眠
 Thread.join();//插队执行完再执行其他线程
 Thread.state state = a.getState;线程状态
+
 中止采用计数或者标志位
 
 线程优先级1到10方法看源码的  主要还是看cpu调用 默认5 
